@@ -1,0 +1,67 @@
+*{
+    margin: 0; padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: url(../img/wallpaper.jpg) 
+    no-repeat 
+    center/cover;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-flow: column;
+    align-items: center; justify-content: center;
+    height: 100vh;
+    gap: 4rem;
+}
+
+.container .lutador{
+    height: 35rem; width: 35rem;
+    border: 3px solid #eee;
+}
+
+.container .btns{
+    display: flex;
+    gap: 1rem;
+}
+
+.btns button{
+    width: 10rem;
+    font-size: 1.5rem;
+    padding: .5rem 0;
+    color: #eee;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.btns button:hover{
+    opacity: .8;
+}
+
+.juri_wait{
+    background: purple;
+    border: 2px solid #eee;
+}
+
+.ken{
+    background: red;
+    border: 2px solid yellow;
+}
+
+.laura{
+    background: green;
+    border: 2px solid rgb(0, 41, 0);
+}
+
+.poison{
+    background: rgb(184, 0, 168);
+    border: 2px solid purple;
+}
+
+.vega{
+    background: black;
+    border: 2px solid red;
+}
